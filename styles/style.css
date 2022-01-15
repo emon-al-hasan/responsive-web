@@ -1,14 +1,18 @@
 body{
     font-family: 'Island Moments', cursive;
 font-family: 'Poppins', sans-serif;
-background-color: #FFFFFF;
-
-
+background-color:#FFFFFF;
+margin: 0px;
+}
+main{
+    width: 1400px;
 
 }
+   
 .container{
     background-color: #FFFFFF;
-    width: 1440px;
+    
+ 
     padding: 30px;
     margin-top: 21px;
     border-radius: 5px;
@@ -17,9 +21,9 @@ background-color: #FFFFFF;
     display: flex;
     margin-left: 0px;
     margin-bottom: 300px;
-    
-
 }
+
+
 .header{
     margin-left: 195px;
     margin-top: 100px;
@@ -33,16 +37,6 @@ background-color: #FFFFFF;
     width: 70%;
     margin-left: 80px;
 }  
-
-
-
-    
-    
-
-
-
-
-
 .journey{
     font-size: 50px;
     color:black;
@@ -50,6 +44,9 @@ background-color: #FFFFFF;
 .infu{
     color:orange ;
     font-size: 50px;
+}
+.pra{
+    font-size: 25px;
 }
 .button{
     display: flex;
@@ -78,3 +75,153 @@ background-color: #FFFFFF;
     color: white;
     height: 100%;
 }
+.popular{
+    margin-top: -300px;
+    margin-bottom: 400px;
+ margin-left: 60px;
+}
+.collection-info{
+    display: flex;
+    
+  
+    align-items: center;
+}
+.collections  .collection-image img{
+    width: 300px;
+    height: 200px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 30px;
+
+
+
+
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+
+}
+.collection-title{
+    text-align: center;
+ 
+    margin-top: 30px;
+}
+.foot{
+    background-color: black;
+    color: white;
+  
+    text-align: center;
+    font-style:oblique;
+ 
+    width: 100%;
+   
+}
+.mission{
+    padding-top: 50px;
+  
+}
+.icon a{
+  
+
+    color: whitesmoke;
+    font-size: 30px;
+ 
+
+}
+
+.see{
+    justify-content: end;
+   
+    align-items: flex-end;
+    padding-left: 1100px;
+    color:#E02C6D ;
+    
+
+}
+@media only screen and (max-width:688px){
+
+    .popular{
+        width:100%;
+    }
+   .collections{
+    
+    
+    grid-template-columns: repeat(1,1fr);
+    }
+    .collections,.collection{
+    flex-direction: column;
+    margin-left: -10px;
+    
+    }
+    
+    }
+    @media only screen and (max-width:688px){
+
+        .main{
+            width:100%;
+        }
+       .more{
+        
+        
+        grid-template-columns: repeat(1,1fr);
+        }
+        .see{
+        flex-direction: column;
+       margin-left: -950px;
+        
+        }
+        
+        }
+      
+        @media only screen and (min-width:688px) and (max-width:992px){
+
+            .popular{
+                width:100%;
+            }
+           .collections,.collection{
+            
+            
+            grid-template-columns: repeat(1,1fr);
+            flex-direction: column;
+            }
+
+            
+            }
+            @media only screen and (min-width:688px) and (max-width:992px){
+
+                .main{
+                    width:100%;
+                }
+               .more{
+                
+                
+                grid-template-columns: repeat(1,1fr);
+                flex-direction: column;
+                margin-left: -950px;
+                }
+    
+                
+                }
+                @media only screen and (min-width:688px) and (max-width:992px){
+
+                    .foot{
+                        width:100%;
+                    }
+                   .foot1,.icon{
+                    
+                    
+                    grid-template-columns: repeat(1,1fr);
+                    flex-direction: column;
+                    margin-left: -370px;
+                    }
+        
+                    
+                    }
+   
+  

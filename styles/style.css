@@ -35,7 +35,7 @@ main{
     padding-top: 70px;
 }
 .influencer1 img{
-    width: 70%;
+    width: 80%;
     margin-left: 80px;
 }  
 .journey{
@@ -149,7 +149,7 @@ main{
 @media only screen and (max-width:688px){
 
     .popular{
-        width:100%;
+        width:50%;
     }
    .collections{
     
@@ -166,7 +166,7 @@ main{
     @media only screen and (max-width:688px){
 
         .main{
-            width:100%;
+            width:50%;
         }
        .more{
         
@@ -184,7 +184,7 @@ main{
         @media only screen and (min-width:688px) and (max-width:992px){
 
             .popular{
-                width:100%;
+                width:50%;
             }
            .collections,.collection{
             
@@ -198,7 +198,7 @@ main{
             @media only screen and (min-width:688px) and (max-width:992px){
 
                 .main{
-                    width:100%;
+                    width:50%;
                 }
                .more{
                 
@@ -213,7 +213,7 @@ main{
                 @media only screen and (min-width:688px) and (max-width:992px){
 
                     .foot{
-                        width:100%;
+                        width:50%;
                     }
                    .foot1,.icon{
                     
@@ -227,7 +227,7 @@ main{
                     }
                     @media only screen and (min-width:688px) and (max-width:992px){
                         .main{
-                            width: 100%;
+                            width: 50%;
 
                         }
                         .influencer,.influencer1{
@@ -242,7 +242,7 @@ main{
                     }
                     @media only screen and (min-width:688px) and (max-width:992px){
                         .main{
-                            width: 100%;
+                            width: 50%;
 
                         }
                         .header{
@@ -259,7 +259,7 @@ main{
                     @media only screen and (max-width:688px){
 
                         .main{
-                            width:100%;
+                            width:50%;
                         }
                        .influencer,.influence,.header{
                         
@@ -279,7 +279,7 @@ main{
                         @media only screen and (max-width:688px){
 
                             .influencer{
-                                width:100%;
+                                width:50%;
                             }
                            .influencer,.influencer1{
                             
@@ -300,7 +300,7 @@ main{
                             @media only screen and (max-width:688px){
 
                                 .main{
-                                    width:100%;
+                                    width:50%;
                                 }
                                .collection-title{
                                 
